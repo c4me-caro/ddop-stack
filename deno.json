@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "lib": ["deno.ns", "dom"]
+  },
+  "tasks": {
+    "start": "denon run --env-file=.env --allow-env --allow-net main.ts"
+  },
+  "permissions": {
+    "allow-env": true,
+    "allow-net": true
+  }
+}
